@@ -8,7 +8,7 @@ This workflow accepts raw sensor data from IoT devices via webhook, applies basi
 
 ## ⚡ Quick Implementation Steps
 
-- Import the workflow JSON into your n8n instance.
+- Import the workflow JSON into your [n8n account](https://n8n.partnerlinks.io/om1efg2qgvwi).
 - Edit the **Set Config** node to include your InfluxDB credentials and measurement name.
 - Use the webhook URL ( `/webhook/sensor-data` ) in your IoT device or form to send sensor data.
 - Start monitoring your data directly in InfluxDB!
@@ -28,7 +28,7 @@ This workflow accepts raw sensor data from IoT devices via webhook, applies basi
 
 | Tool                       | Purpose                          |
 | :------------------------- | :------------------------------- |
-| **n8n Instance**           | For automation                   |
+| **[n8n account](https://n8n.partnerlinks.io/om1efg2qgvwi)**           | For automation                   |
 | **InfluxDB (v1 or v2)**    | To store time-series sensor data |
 | **IoT Device or Platform** | To POST sensor data              |
 | **Function Node**          | To filter and transform data     |
